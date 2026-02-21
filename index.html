@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- TODO: Replace the content tag with appropriate information -->
+  <!-- <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/> 
+
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+  <title>🧤 Glove2Hand ✋ (CVPR 2026)</title>
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body" style="padding-bottom:0px">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">🧤 Glove2Hand ✋: Synthesizing Natural Hand-Object Interaction from Multi-Modal Sensing Gloves</h1>
+
+
+            <!-- <div class="is-size-5 publication-authors">
+              <span class="author-block"><a target="_blank"> Anonymous </a></span>
+             
+            </div> -->
+
+            <!-- TODO: Paper authors -->
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://mlzxy.github.io/" target="_blank">Xinyu Zhang</a>
+              </span>,
+              <span class="author-block">
+                <a href="https://ziyikou.me/" target="_blank">Ziyi Kou</a>
+              </span>,
+              <span class="author-block">
+                Chuan Qin
+              </span>,
+              <span class="author-block">
+                Mia Huang
+              </span>,
+              <span class="author-block">
+                Ergys Ristani
+              </span>,
+              <span class="author-block">
+                Ankit Kumar
+              </span>,
+              <span class="author-block">
+                <a href="https://lelechen63.github.io/" target="_blank">Lele Chen</a>
+              </span>,
+              <span class="author-block"></span>
+                <a href="https://kunhe.github.io/" target="_blank">Kun He</a>
+              </span>,
+              <span class="author-block">
+              <a href="http://www.abdeslam.net/" target="_blank">Abdeslam Boularias</a>
+              </span>,
+              <span class="author-block">
+                <a href="https://www.liguan.org/" target="_blank">Li Guan</a>
+                </span>
+            </div>
+             <div style="font-weight: bold;"> CVPR 2026, Meta Reality Lab </div>
+           
+            <!--<div class="is-size-5 publication-authors">
+              <span class="author-block">Rutgers University<br>CoRL 2024</span>
+              
+             <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+            </div> -->
+
+            <div class="column has-text-centered">
+             
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="" target="_blank"
+                  class="external-link button is-normal is-rounded is-dimmed arxiv" > 
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                  </a>
+                </span>
+
+            
+                <span class="link-block">
+                  <a target="_blank"  href=""
+                  class="external-link button is-normal is-rounded is-dark is-dimmed" >
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+
+                </span>  
+             
+
+
+                <!-- TODO: ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/2405.13178" target="_blank"
+                  class="external-link button is-normal is-rounded arxiv">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                  </a>
+                </span> -->
+            </div>
+
+            <span style="font-size:12px;"> Please stay tuned for the arxiv and dataset release. </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<div style="margin-top:10px"></div>
+<section class="hero teaser">
+  <div class="container is-max-desktop" style="text-align: center;">
+    <div class="hero-body">
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/page-1-movie.mp4"
+        type="video/mp4">
+      </video> -->
+      <div class="columns is-centered has-text-centered" style="border: 1px solid #eee;">
+      <iframe width="1024" height="525"  src="https://www.youtube.com/embed/Z87TzdvgdTw?si=cfmKMVV80CyXEd58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      
+      <div style="margin-top:-10px">
+      <span style="font-size:12px;font-weight: bold;"> Video best viewed in 1080p HD. </span>
+      </div>
+    </div>
+   
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Understanding hand-object interaction (HOI) is fundamental to computer vision, robotics, and AR/VR. However, 
+            conventional hand videos often lack essential physical information such as <b>contact forces</b> and motion signals, and are prone to frequent <b>occlusions</b>. To address the challenges, we present Glove2Hand, a framework that translates multi-modal sensing <b>glove HOI videos into photorealistic bare hands</b>, while faithfully preserving the underlying physical interaction dynamics. We introduce a novel 3D Gaussian hand model that ensures temporal rendering consistency. The rendered hand is seamlessly integrated into the scene using a diffusion-based hand restorer, which effectively handles complex hand-object interactions and non-rigid deformations. Leveraging Glove2Hand, we create HandSense, the first multi-modal HOI dataset featuring glove-to-hand videos with synchronized tactile and IMU signals. We demonstrate that HandSense significantly enhances downstream bare-hand applications, including video-based contact estimation and hand tracking under severe occlusion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- <section class="hero is-small">
+  <div class="hero-body" >
+    <div class="container">
+        <div class="item" style="text-align: center;">
+          <img src="static/images/ycb.png" width="80%" alt="MY ALT TEXT"/>
+         <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2> 
+        </div>
+    </div>
+  </div>
+</section>  -->
+
+
+
+<section class="hero is-small">
+  <div class="hero-body" >
+    <div class="container">
+      <h2 class="title is-3">Architecture</h2>
+        <div class="item" style="text-align: center;">
+          <img src="static/images/main.png" width="80%" alt="Glove2Hand Architecture"/>
+        <h2 class="subtitle has-text-centered">
+          Glove2Hand combines the strengths of 3D reconstruction for consistency and generative modeling for flexibility and photo-realism.
+        </h2>
+        </div>
+    </div>
+  </div>
+</section>  
+
+
+
+<!-- TODO: Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<!-- TODO: Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/watch?v=Z87TzdvgdTw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- TODO: Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Carousal Title</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3"> Experiment Results </h2>
+        <div class="item item-video1">
+        </div>
+    </div>
+  </div>
+</section>   -->
+
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Experiments</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/coco.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/pascalvoc.jpg" alt="MY ALT TEXT"/>
+         <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2> 
+      </div>
+      <div class="item">
+        <img src="static/images/lvis.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>  -->
+
+<!-- TODO: Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!-- TODO: BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
